@@ -29,7 +29,7 @@ public class Card implements Comparable {
 		this.eRank = eRank;
 	}
 
-	@Override
+	
 	public int compareTo(Object o) {
 		Card c = (Card) o;		
 		return c.geteRank().compareTo(this.geteRank());
